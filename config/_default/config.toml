@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://starter.stack.cai.im/"
+baseurl = "https://actypedef.github.io/blog/"
 locale  = "en-us"
 title   = "Hugo Theme Stack Starter"
 
