@@ -1,9 +1,9 @@
 ---
 title: Test
 description: This is an initial post for test
-slug: hello-world
+slug: test
 date: 2026-06-04 12:49:00+0000
-image: maple-canopy-diffusion.jpg
+image: cover.jpg
 categories:
     - test
 tags:
@@ -32,10 +32,10 @@ weight: 1       # You can add weight to some posts to override the default sorti
 - 列表这是无序
 - 表这是无序列
 
-[这是测试链接](https://actypedef.github.io)
+<!-- [这是测试链接](https://actypedef.github.io)
 
 ![这是测试图片](assets/img/avatar.png)
 
 $$
 \LaTeX
-$$
+$$ -->
