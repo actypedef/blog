@@ -14,6 +14,8 @@ menu:
 comments: false
 ---
 
+> 友联，施工中
+
 To use this feature, add `links` section to frontmatter.
 
 This page's frontmatter:
