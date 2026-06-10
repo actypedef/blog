@@ -11,6 +11,24 @@ menu:
 comments: false
 ---
 
+## 6.10
+---
+- macos 确实比较好用
+- 其实不难意识到，我的需求还是比较轻量化的
+- 至少开启自动起飞的厚切游戏本，其实是不要必要了
+- 一个轻薄本 + win 主机，足够覆盖游戏和学习需求了
+- 另外 terminal 还挺好用的，再见了 wsl
+---
+- 说起来也奇怪
+- 在天津的三年，身体几乎没什么问题
+- 但是每年回家，都能给我生命值上限降低，没招了
+- 唉依旧氯雷他定，过敏党你赢了
+---
+- 今日审稿了一片博物馆级别的神秘大作
+- 我去，原来今年是 2026 年，恍若隔世了
+- 说实话，做成这样我很难心软，最后还是给了 r
+- 害得我捏鼻品鉴酒吧炒饭，太坏了
+
 ## 6.9
 ---
 [![神秘小广告](https://i.postimg.cc/76QnrcYY/kan-guo-zui-qiang-de-xiao-guang-gao-you-xu-yao-de-ke-yi-dian-hua-1-ka-bi-da-mo-wang-lai-zi-xiao-hong-shu-wang-ye-ban.jpg)](https://postimg.cc/47V9zW9r)
