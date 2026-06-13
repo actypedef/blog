@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://actypedef.github.io/blog/"
+baseurl = "https://actypedef.ink/"
 locale  = "en-us"
 title   = "灭火器箱"
 
