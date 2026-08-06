@@ -64,15 +64,15 @@ $$Q\in\mathbb R^{L\times d_h},\qquad K\in\mathbb R^{L\times d_h},\qquad V\in\mat
 
 计算过程是：
 
-$$A=\operatorname{softmax}\left(\frac{QK^\mathsf T}{\sqrt{d_h}}+M\right)$$
+$$P=\operatorname{softmax}\left(\frac{QK^\mathsf T}{\sqrt{d_h}}+M\right)$$
 
-$$O=AV$$
+$$O=PV$$
 
 其中 $M$ 是因果 mask，禁止当前位置看到未来 token。
 
 维度上：
 
-$$\underbrace{[L,L]}_{A} \times \underbrace{[L,d_v]}_{V} = \underbrace{[L,d_v]}_{O}$$
+$$\underbrace{[L,L]}_{P} \times \underbrace{[L,d_v]}_{V} = \underbrace{[L,d_v]}_{O}$$
 
 Attention map 的两个轴不是一回事：
 
@@ -585,11 +585,11 @@ $$Q\in\mathbb R^{L\times d}, \qquad K,V\in\mathbb R^{(L/4)\times d}$$
 
 为单独说明 Query 轴与 KV 轴的维度关系，暂时忽略 causal mask、top-$k$ 和滑动窗口；若主分支对全部压缩项计算 Attention，其矩阵形状为：
 
-$$A\in\mathbb R^{L\times(L/4)}$$
+$$P\in\mathbb R^{L\times(L/4)}$$
 
 因此：
 
-$$\underbrace{[L,L/4]}_A \times \underbrace{[L/4,d]}_V = \underbrace{[L,d]}_O$$
+$$\underbrace{[L,L/4]}_P \times \underbrace{[L/4,d]}_V = \underbrace{[L,d]}_O$$
 
 矩阵乘法保留 Attention map 的 Query 轴，因此输出 token 数量仍为 $L$。
 
