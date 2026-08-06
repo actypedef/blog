@@ -3,7 +3,7 @@ title: 浅读 DeepSeek V4 Sparse Attention
 description: Attention 结构、KV Cache 规模与长上下文稀疏机制梳理
 slug: deepseek-sparse-attention-kv-cache
 date: 2026-08-04 00:00:00+0800
-image: cover.png
+image: cover.jpg
 categories:
     - past
 tags:
