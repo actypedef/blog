@@ -7,6 +7,16 @@
 #icon = "home"
 #newtab = true
 
+[[main]]
+    identifier = "bar"
+    name       = "Bar"
+    url        = "https://actypedef.github.io/moonshot/"
+    weight     = 6
+
+    [main.params]
+        icon   = "cocktail"
+        newtab = true
+
 [[social]]
     identifier = "github"
     name       = "GitHub"
